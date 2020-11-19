@@ -2,6 +2,7 @@ module.exports = {
   "title": "前端开发社区",
   "description": "",
   "dest": "public",
+  "base": "/myBlog/",
   "head": [
     [
       "link",
@@ -20,8 +21,8 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
-    mode: 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
-    modePicker: false,  // 默认 true，false 不显示模式调节按钮，true 则显示
+    "mode": 'light', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    "modePicker": false,  // 默认 true，false 不显示模式调节按钮，true 则显示
     "nav": [
       {
         "text": "时间轴",
