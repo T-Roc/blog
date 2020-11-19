@@ -2,7 +2,7 @@ module.exports = {
   "title": "前端开发社区",
   "description": "",
   "dest": "public",
-  "base": "/myBlog/",
+  "base": "/blog/",
   "head": [
     [
       "link",
