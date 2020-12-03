@@ -1,7 +1,7 @@
 module.exports = {
   "title": "前端开发社区",
   "description": "",
-  "dest": "public",
+  "dest": "dist",
   "base": "/blog/",
   "head": [
     [
@@ -30,18 +30,9 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "文章",
+        "text": "分享课",
+        "link": "/categories/分享课/",
         "icon": "reco-blog",
-        "items": [
-          {
-            "text": "分享课",
-            "link": "/categories/share/"
-          },
-          {
-            "text": "其他",
-            "link": "/categories/other/"
-          }
-        ]
       },
       {
         "text": "文档",
