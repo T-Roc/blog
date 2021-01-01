@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "前端开发社区",
+  "title": "T-Roc Blog",
   "description": "",
   "dest": "dist",
   "base": "/blog/",
@@ -93,13 +93,13 @@ module.exports = {
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
     ],
-    "logo": "/logo.jpg",
+    "logo": "",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "sendinfo",
-    "authorAvatar": "/avatar.jpg",
-    "record": "深大智能",
+    "author": "T-Roc",
+    "authorAvatar": "/avatar.png",
+    "record": "",
     "startYear": "2020"
   },
   "markdown": {
