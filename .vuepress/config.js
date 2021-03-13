@@ -39,8 +39,8 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "Fish UI",
-            "link": "/docs/Fish/"
+            "text": "高阶函数",
+            "link": "/docs/FunctionPrograming/"
           }
         ]
       },
@@ -62,11 +62,11 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/Fish/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
+      "/docs/FunctionPrograming/": [
+        "define",
+        "higherOrderFunc",
+        "closure",
+        "curry"
       ]
     },
     "type": "blog",
