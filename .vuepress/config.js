@@ -40,7 +40,7 @@ module.exports = {
         "items": [
           {
             "text": "高阶函数",
-            "link": "/docs/FunctionPrograming/"
+            "link": "/docs/FunctionPrograming/define"
           }
         ]
       },
@@ -66,7 +66,12 @@ module.exports = {
         "define",
         "higherOrderFunc",
         "closure",
-        "curry"
+        "pureFunction",
+        "curry",
+        "compose",
+        "pointFree",
+        "Lodash_fp",
+        "functor"
       ]
     },
     "type": "blog",
