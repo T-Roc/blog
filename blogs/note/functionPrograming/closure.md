@@ -1,10 +1,19 @@
 ---
 title: 闭包
 date: 2020-03-13
+author: T-ROC
+tags:
+ - javaScript
+ - 闭包
+categories: 
+ - 函数式编程
 ---
+
 ## 定义
 
 一个函数和对其周围状态（lexical environment，词法环境）的引用捆绑在一起（或者说函数被引用包围），这样的组合就是闭包（closure）。也就是说，闭包让你可以**在一个内层函数中访问到其外层函数的作用域**。在 JavaScript 中，每当创建一个函数，闭包就会在函数创建的同时被创建出来。
+
+<!-- more -->
 
 --- 来源：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Closures)
 

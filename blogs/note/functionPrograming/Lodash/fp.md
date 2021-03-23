@@ -1,13 +1,21 @@
 ---
 title: FP 模块
 date: 2020-03-12
+author: T-ROC
+tags:
+ - lodash
+categories: 
+ - 函数式编程
 ---
 
 ## FP模块
+
 函数组合的时候用到很多的函数需要柯里化处理，我们每次都处理那些函数有些麻烦，所以lodash中有一个FP模块
 
 - lodash 的 fp 模块提供了实用的对函数式编程友好的方法
 - 提供了不可变 auto-curried iteratee-first data-last （函数之先，数据之后）的方法
+
+<!-- more -->
 
 ```js
 // lodash 模块 

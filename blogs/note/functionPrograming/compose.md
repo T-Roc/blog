@@ -1,6 +1,12 @@
 ---
 title: 函数组合
 date: 2020-03-13
+author: T-ROC
+tags:
+ - javaScript
+ - 函数组合
+categories: 
+ - 函数式编程
 ---
 
 ## 函数组合
@@ -13,6 +19,9 @@ date: 2020-03-13
 _.toUpper(_.first(_.reverse(array)))
 ```
 函数组合可以让我们把细粒度的函数重新组合生成一个新的函数，避免写出洋葱代码
+
+<!-- more -->
+
 ### 管道
 >a --> fn --> b
 >

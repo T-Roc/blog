@@ -1,15 +1,25 @@
 ---
 title: Point Free
 date: 2020-03-12
+author: T-ROC
+tags:
+ - javaScript
+ - Point Free
+categories: 
+ - 函数式编程
 ---
 
 ## Point Free
+
 是一种编程风格，具体的实现是函数的组合。
 
 **Point Free：** 我们可以把数据处理的过程定义成与数据无关的合成运算，不需要用到代表数据的那个参数，只要把简单的运算步骤合成到一起，在使用这种模式之前我们需要定义一些辅助的基本运算函数。
+
 - 不需要指明处理的数据
 - 只需要合成运算过程
 - 需要定义一些辅助的基本运算函数
+
+<!-- more -->
 
 ```js
 //Hello World => hello world
